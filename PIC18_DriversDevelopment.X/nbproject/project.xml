@@ -6,9 +6,9 @@
             <name>PIC18_DriversDevelopment</name>
             <creation-uuid>69eeb290-dbe7-40ea-9107-703f1f406160</creation-uuid>
             <make-project-type>0</make-project-type>
-            <c-extensions/>
+            <c-extensions>c</c-extensions>
             <cpp-extensions/>
-            <header-extensions/>
+            <header-extensions>h</header-extensions>
             <asminc-extensions/>
             <sourceEncoding>ISO-8859-1</sourceEncoding>
             <make-dep-projects/>
