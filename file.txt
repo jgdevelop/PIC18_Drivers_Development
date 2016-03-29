@@ -1,0 +1,262 @@
+%% start of file `template.tex'.
+%% Copyright 2006-2013 Xavier Danaux (xdanaux@gmail.com).
+%
+% This work may be distributed and/or modified under the
+% conditions of the LaTeX Project Public License version 1.3c,
+% available at http://www.latex-project.org/lppl/.
+
+
+\documentclass[11pt,a4paper,sans]{moderncv}        % possible options include font size ('10pt', '11pt' and '12pt'), paper size ('a4paper', 'letterpaper', 'a5paper', 'legalpaper', 'executivepaper' and 'landscape') and font family ('sans' and 'roman')
+
+% moderncv themes
+\moderncvstyle{classic}                             % style options are 'casual' (default), 'classic', 'oldstyle' and 'banking'
+\moderncvcolor{green}                               % color options 'blue' (default), 'orange', 'green', 'red', 'purple', 'grey' and 'black'
+%\renewcommand{\familydefault}{\sfdefault}         % to set the default font; use '\sfdefault' for the default sans serif font, '\rmdefault' for the default roman one, or any tex font name
+%\nopagenumbers{}                                  % uncomment to suppress automatic page numbering for CVs longer than one page
+
+% character encoding
+\usepackage[utf8]{inputenc}                       % if you are not using xelatex ou lualatex, replace by the encoding you are using
+%\usepackage{CJKutf8}                              % if you need to use CJK to typeset your resume in Chinese, Japanese or Korean
+
+% adjust the page margins
+\usepackage[scale=0.75]{geometry}
+%\setlength{\hintscolumnwidth}{3cm}                % if you want to change the width of the column with the dates
+\setlength{\makecvtitlenamewidth}{10cm}           % for the 'classic' style, if you want to force the width allocated to your name and avoid line breaks. be careful though, the length is normally calculated to avoid any overlap with your personal info; use this at your own typographical risks...
+
+% personal data
+\name{Serena}{Lampis}
+\title{Curriculum Vitae}                               % optional, remove / comment the line if not wanted
+\address{Domicilio: Via Caraglio 26}{Torino 10141}{Italy}% optional, remove / comment the line if not wanted; the "postcode city" and and "country" arguments can be omitted or provided empty
+\phone[mobile]{Tel: +39~(347)~7478460}                   % optional, remove / comment the line if not wanted
+%\phone[fixed]{+2~(345)~678~901}                    % optional, remove / comment the line if not wanted
+%\phone[fax]{+3~(456)~789~012}                      % optional, remove / comment the line if not wanted
+\email{Email: s.lampis3@gmail.com}                               % optional, remove / comment the line if not wanted
+\homepage{Linkedin: https://it.linkedin.com/in/serenalampis}                         % optional, remove / comment the line if not wanted
+%\extrainfo{additional information}                 % optional, remove / comment the line if not wanted
+%\photo[65pt][0.2pt]{photo}                       % optional, remove / comment the line if not wanted; '64pt' is the height the picture must be resized to, 0.4pt is the thickness of the frame around it (put it to 0pt for no frame) and 'picture' is the name of the picture file
+%\quote{Some quote}                                 % optional, remove / comment the line if not wanted
+
+% to show numerical labels in the bibliography (default is to show no labels); only useful if you make citations in your resume
+%\makeatletter
+%\renewcommand*{\bibliographyitemlabel}{\@biblabel{\arabic{enumiv}}}
+%\makeatother
+%\renewcommand*{\bibliographyitemlabel}{[\arabic{enumiv}]}% CONSIDER REPLACING THE ABOVE BY THIS
+
+% bibliography with mutiple entries
+%\usepackage{multibib}
+%\newcites{book,misc}{{Books},{Others}}
+%----------------------------------------------------------------------------------
+%            content
+%----------------------------------------------------------------------------------
+\begin{document}
+%\begin{CJK*}{UTF8}{gbsn}                          % to typeset your resume in Chinese using CJK
+%-----       resume       ---------------------------------------------------------
+\makecvtitle
+
+\section{Obiettivo}
+Svolgere la pratica forense presso uno studio legale al fine di acquisire solide competenze trasversali in previsione del sostenimento dell'esame di stato di avvocatura.\\
+%Uno degli obiettivi principali è quello di rafforzare le compenze in materia di diritto commerciale e in particolare di diritto della proprietà intellettuale, attribuendo la preferenza agli studi che abbiano queste materie tra gli ambiti di specializzazione.
+
+\section{Informazioni personali}
+\cvitem{}{\begin{itemize}
+		\item Data di nascita: 27/10/1991 a San Gavino Monreale, Italia
+		\item Telefono: +39-3477478460 
+		\item Email: s.lampis3@gmail.com
+		\item Patente B
+		\end{itemize}}
+
+\section{Istruzione}
+\cventry{2010--2015}{Laurea magistrale a ciclo unico in Giurisprudenza}{Università degli Studi di Cagliari}{Cagliari(CA)}
+{\textit{Italy}}{\textit{Votazione: 110/110 e lode}}
+\cventry{2005--2010}{Diploma di maturità scientifica}{Liceo Scientifico Guglielmo Marconi}{San Gavino Monreale(CA)}{\textit{Italy}}{\textit{Valutazione 98/100}}
+
+
+
+%\section{Experience}
+%\subsection{Extracurricular activities}
+%\cventry{2011--2012}{AUTOMOTIVE Formula SAE UNICAR Activity}{Member of the Electronic engineering Team}{Università degli Cagliari}{}{
+%\begin{itemize}
+%  		\item Management of the electronic parts of the Formula SAE car 
+%  		\item Management of the Magneti-Marelli ECU of the SAE car
+%  		\item Management of the CAN protocol for data communication with the ECU
+%  		\item Design of an automatic shift gear electronic system for the car (\emph{Goal of the project: implementation of an automatic shift gear, controlled by the driver, using microcontrollers. The system checks the speed of the car when the driver requests for a shift gear, in order to avoid security problems.)}
+%  		\end{itemize}
+%}
+
+%\cventry{2013--2014}{Job title}{Employer}{City}{}{Description line 1\newline{}Description line 2}
+%\subsection{Miscellaneous}
+%\cventry{year--year}{Job title}{Employer}{City}{}{Description}
+
+\section{Carriera Accademica}
+\subsection{Tesi di Laurea in Diritto Industriale}
+\cvitem{Titolo}{\emph{Dalle Information highways al Cloud: il viaggio del diritto d'autore nel web}}
+\cvitem{Relatore}{Prof.ssa Elisabetta Loffredo}
+\cvitem{Abstract}{ll lavoro di tesi studia il diritto d'autore nel mondo digitale. Analizza la normativa nazionale, internazionale e comunitaria sul tema, con particolare risalto alle direttive 2001/29 e 2014/26. Analizza il profilo circolatorio delle opere digitali in rete attraverso l'individuazione di un percorso che considera i profili di indipendenza dell'autore nell'esercizio del diritto di distribuzione e i principali sistemi circolatori. }
+
+\cvitem{}{Questi sono quelli peer to peer, user generated contents e cloud, classificati in base alla tendenza all'accentramento o al decentramento nella figura dell'Internet service provider. Analizza i termini di servizio dei maggiori fornitori di servizi e individua le nuove problematiche poste in chiave di bilanciamento di interessi e nella prospettiva degli utilizzatori.}
+\subsection{Esami Universitari}
+\begin{cvcolumns}
+  \cvcolumn[0.7]{Esame}{
+  \begin{itemize}
+  		\item Istituzioni di Diritto Privato 
+  		\item Diritto Successorio
+  		\item Diritto Privato dell'Economia
+  		\item Diritto Civile
+  		\item Diritto Commerciale
+  		\item Diritto Industriale
+  		\item Diritto Bancario
+  		\item Diritto Fallimentare
+  		\item Diritto tributario
+  		\item Diritto costituzionale 
+		\item Giustizia costituzionale
+		\item Diritto penale parte generale 
+		\item Diritto penale parte speciale 
+		\item Diritto amministrativo sostanziale
+		\item Diritto amministrativo processuale
+		\item Diritto del lavoro 
+		\item Diritto della previdenza sociale 
+		\item Diritto internazionale 
+		\item Diritto dell'Unione europea 
+		\item Diritto costituzionale italiano e comparato 
+		\item Diritto processuale civile 
+		\item Diritto processuale penale 
+		\item Istituzioni di diritto romano 
+		\item Fondamenti di diritto europeo 
+		\item Diritto romano 1  
+		\item Storia del diritto medievale e moderno 
+		\item Filosofia del diritto 
+		\item Filosofia del diritto corso avanzato 
+		\item Diritto della navigazione 
+		\item Economia politica 
+  		\end{itemize}}
+  \cvcolumn{Voto}{30/30 e lode  \\ 
+  							   30/30 \\
+  							   30/30 e lode \\
+  							   30/30 e lode \\
+  							   30/30 \\
+  							   30/30 \\
+  							   30/30 e lode\\
+  							   30/30 \\
+  							   30/30 \\
+  							   30/30 \\
+  							   30/30 \\
+  							   30/30 \\
+  							   30/30 e lode \\
+  							   27/30 \\
+  							   28/30\\
+  							   28/30\\
+  							   30/30\\
+  							   28/30\\
+  							   27/30\\
+  							   28/30\\
+  							   30/30\\
+  							   30/30\\
+  							   30/30\\
+  							   30/30 e lode\\
+  							   30/30\\
+  							   30/30 e lode\\
+  							   27/30\\
+  							   30/30 e lode\\
+  							   29/30\\
+  							   26/30\\
+  							   }
+\end{cvcolumns}
+
+ \section{Altre esperienze} 		
+ \cventry{Maggio 2015}{Corso di alta formazione Microsoft “Nuvola rosa”}{Scienza e nuove tecnologie}{Milano(Mi)}
+{}{}
+\cventry{Luglio 2014}{Group Leader del Gruppo Italiano}{Scambio Europeo "I don't refuse! Yo reciclo" in lingua inglese con la partecipazione di gruppi sloveno, turco, spagnolo}{}{Arbus(CA)}{}
+ \cventry{2012 - 2014}{Segretario presso Consulta dei Giovani del Comune di Arbus}{}{Arbus(CA)}
+{}{}
+
+\section{Conscenze informatiche}
+\cvitem{}{\begin{itemize}
+		\item Ottima conoscenza del pacchetto Office Microsoft
+		\item Ottima conoscenza del pacchetto Libreoffice 
+		\item Buona conoscenza dell'utilizzo delle principali banche dati giuridiche: DoGi, Westlaw, InfoLeges
+		\end{itemize}}
+		
+\cvitem{Sistemi Operativi}{\begin{itemize}
+		\item Windows -- \emph{Buona conoscenza}
+		\item Linux -- \emph{Buona conoscenza} 	
+		\end{itemize}}
+
+\section{Conoscenze linguistiche}
+\cvitemwithcomment{Italiano}{Madrelingua}{}
+\cvitemwithcomment{Inglese}{Intermedio (Level B2)}{ In programma lo svolgimento di un corso di inglese da settembre 2015 con obiettivo il conseguimento del livello C1}
+\cvitemwithcomment{Francese}{Conoscenza base}{}
+  		
+ \section{Profilo Personale}
+Sono una persona costante, leale, determinata nel raggiungere i propri obiettivi e con un alto senso del dovere. Ho una buona predisposizione al lavoro in gruppo in quanto sono una persona amichevole e collaborativa e trovo proficuo lo scambio di idee e di competenze che in questo si attua. Di contro, non ho problemi anche a svolgere il mio lavoro in autonomia, ottenendo normalmente ottimi risultati. Ho forti capacità organizzative, precisione e capacità di problem solving maturate attraversole esperienze come segretario della Consulta dei Giovani di Arbus e di Group Leader durante un progetto di scambio culturale europeo. 
+ Ho inoltre una forte capacità di adattamento a situazioni nuove e non mi tiro indietro davanti a nuove responsabilità.
+ 
+\section{Interessi}
+Ho una fortissima passione per ogni forma d'arte, in particolare per la letteratura e per la danza.
+Ho praticato danza classica per 13 anni svolgendo il corso accademico e raggiungendo il grado di “Primo eccellente”.
+Tra i miei interessi principali c'è inoltre quello della lettura, che coltivo con una passione trasversale per quasi tutti i generi letterari. Mi piacciono il teatro, il cinema, la musica. È per queste passioni che, anche all'interno della mia esperienza di studio, ho individuato il diritto della proprietà intellettuale come materia di elezione.
+%\section{Interests}
+%\cvitem{}{Music, Technology, Sports, Languages}
+\\
+\\
+\emph{In riferimento alla legge 196/2003 autorizzo espressamente l'utilizzo dei miei dati personali e professionali riportati nel mio curriculum.}
+
+%\section{Extra 1}
+%\cvlistitem{Item 1}
+%\cvlistitem{Item 2}
+%\cvlistitem{Item 3. This item is particularly long and therefore normally spans over several lines. Did you notice the indentation when the line wraps?}
+%
+%\section{Extra 2}
+%\cvlistdoubleitem{Item 1}{Item 4}
+%\cvlistdoubleitem{Item 2}{Item 5\cite{book1}}
+%\cvlistdoubleitem{Item 3}{Item 6. Like item 3 in the single column list before, this item is particularly long to wrap over several lines.}
+
+%\section{References}
+%\begin{cvcolumns}
+%  \cvcolumn{Category 1}{\begin{itemize}\item Person 1\item Person 2\item Person 3\end{itemize}}
+%  \cvcolumn{Category 2}{Amongst others:\begin{itemize}\item Person 1, and\item Person 2\end{itemize}(more upon request)}
+%  \cvcolumn[0.5]{All the rest \& some more}{\textit{That} person, and \textbf{those} also (all available upon request).}
+%\end{cvcolumns}
+
+% Publications from a BibTeX file without multibib
+%  for numerical labels: \renewcommand{\bibliographyitemlabel}{\@biblabel{\arabic{enumiv}}}% CONSIDER MERGING WITH PREAMBLE PART
+%  to redefine the heading string ("Publications"): \renewcommand{\refname}{Articles}
+\nocite{*}
+\bibliographystyle{plain}
+\bibliography{publications}                        % 'publications' is the name of a BibTeX file
+
+% Publications from a BibTeX file using the multibib package
+%\section{Publications}
+%\nocitebook{book1,book2}
+%\bibliographystylebook{plain}
+%\bibliographybook{publications}                   % 'publications' is the name of a BibTeX file
+%\nocitemisc{misc1,misc2,misc3}
+%\bibliographystylemisc{plain}
+%\bibliographymisc{publications}                   % 'publications' is the name of a BibTeX file
+
+%\clearpage
+%%-----       letter       ---------------------------------------------------------
+%% recipient data
+%\recipient{Company Recruitment team}{Company, Inc.\\123 somestreet\\some city}
+%\date{January 01, 1984}
+%\opening{Dear Sir or Madam,}
+%\closing{Yours faithfully,}
+%\enclosure[Attached]{curriculum vit\ae{}}          % use an optional argument to use a string other than "Enclosure", or redefine \enclname
+%\makelettertitle
+%
+%Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis ullamcorper neque sit amet lectus facilisis sed luctus nisl iaculis. Vivamus at neque arcu, sed tempor quam. Curabitur pharetra tincidunt tincidunt. Morbi volutpat feugiat mauris, quis tempor neque vehicula volutpat. Duis tristique justo vel massa fermentum accumsan. Mauris ante elit, feugiat vestibulum tempor eget, eleifend ac ipsum. Donec scelerisque lobortis ipsum eu vestibulum. Pellentesque vel massa at felis accumsan rhoncus.
+%
+%Suspendisse commodo, massa eu congue tincidunt, elit mauris pellentesque orci, cursus tempor odio nisl euismod augue. Aliquam adipiscing nibh ut odio sodales et pulvinar tortor laoreet. Mauris a accumsan ligula. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Suspendisse vulputate sem vehicula ipsum varius nec tempus dui dapibus. Phasellus et est urna, ut auctor erat. Sed tincidunt odio id odio aliquam mattis. Donec sapien nulla, feugiat eget adipiscing sit amet, lacinia ut dolor. Phasellus tincidunt, leo a fringilla consectetur, felis diam aliquam urna, vitae aliquet lectus orci nec velit. Vivamus dapibus varius blandit.
+%
+%Duis sit amet magna ante, at sodales diam. Aenean consectetur porta risus et sagittis. Ut interdum, enim varius pellentesque tincidunt, magna libero sodales tortor, ut fermentum nunc metus a ante. Vivamus odio leo, tincidunt eu luctus ut, sollicitudin sit amet metus. Nunc sed orci lectus. Ut sodales magna sed velit volutpat sit amet pulvinar diam venenatis.
+%
+%Albert Einstein discovered that $e=mc^2$ in 1905.
+%
+%\[ e=\lim_{n \to \infty} \left(1+\frac{1}{n}\right)^n \]
+%
+%\makeletterclosing
+%
+%\clearpage\end{CJK*}                              % if you are typesetting your resume in Chinese using CJK; the \clearpage is required for fancyhdr to work correctly with CJK, though it kills the page numbering by making \lastpage undefined
+\end{document}
+
+
+%% end of file `template.tex'.
